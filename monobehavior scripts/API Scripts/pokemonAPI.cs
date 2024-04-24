@@ -31,13 +31,12 @@ public class pokemonAPI : MonoBehaviour
             }
         }
     }
-    void getPokemon
+    void getPokemon()
     {
         for(int temp; temp = 1; temp < 100)
         {
-            this.name = name;
-            this.url = url;
-            Po
+            new Pokemon(name, url) = pokemon;
+            pokemon.display;
         }
     }
 }
